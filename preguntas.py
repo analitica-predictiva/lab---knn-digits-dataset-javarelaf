@@ -7,7 +7,7 @@ En este laboratio se construirá un clasificador usando k-NN para el dataset de 
 """
 import matplotlib.pyplot as plt
 import numpy as np
-import pandas as pd
+
 from sklearn import datasets
 
 
@@ -67,7 +67,7 @@ def pregunta_03():
     """
     Complete el código presentado a continuación.
     """
-
+    import pandas as pd
     # Importe KNeighborsClassifier de sklearn.neighbors
     from sklearn.neighbors import KNeighborsClassifier
 
